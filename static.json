@@ -1,0 +1,24 @@
+{
+    "lessOptions": {
+      "math": "always",
+      "globalVars": {
+        "env": "v1"
+      },
+      "modifyVars": {}
+    },
+    "static": {
+        "css": {
+            "css/all.css": [
+                "less/reset.less",
+                "less/showMassage.less"
+            ]
+        },
+        "js": {
+            "js/all.js": [
+                "js/jquery-3.5.0.min.js",
+                "js/refresRem.js",
+                "js/utils.js"
+            ]
+        }
+    }
+}
